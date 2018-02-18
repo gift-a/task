@@ -1,0 +1,40 @@
+.section-4 {
+  background-color: $color-bg-2;
+
+  &__menu {
+    justify-content: space-between;
+    padding: 64px 0px 16px;
+  }
+
+  &__menu-item {
+    flex-basis: 48.6%;
+    box-sizing: border-box;
+    padding-bottom: 60px;
+  }
+
+  &__heading-box{
+    position: relative;
+  }
+
+  &__icon {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    margin-right: 12px;
+  }
+
+  &__heading {
+    position: absolute;
+    top:0;
+    left:36px;
+    margin: auto 0;
+  }
+
+  &__line {
+    background: linear-gradient(to right, $color-4, #eff0f0)
+  }
+
+  &__text {
+    margin: 24px 0px 32px;
+  }
+}

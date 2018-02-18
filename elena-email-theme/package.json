@@ -1,0 +1,38 @@
+{
+  "name": "elena-email-theme",
+  "version": "1.0.0",
+  "description": "Markup Elena-theme",
+  "main": "index.js",
+  "scripts": {
+    "precommit": "lint-staged"
+  },
+  "author": "Kseniia",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^8.0.0",
+    "browser-sync": "^2.23.6",
+    "gulp": "^3.9.1",
+    "gulp-postcss": "^7.0.1",
+    "gulp-sass": "^3.1.0",
+    "husky": "^0.15.0-rc.8",
+    "lint-staged": "^6.1.1"
+  },
+  "dependencies": {
+    "entypo": "^2.1.0",
+    "gulp-rename": "^1.2.2"
+  },
+  "lint-staged": {
+    "*.{js,json,css,md}": [
+      "prettier --write",
+      "git add"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gift-a/task-0.git"
+  },
+  "bugs": {
+    "url": "https://github.com/gift-a/task-0/issues"
+  },
+  "homepage": "https://github.com/gift-a/task-0#readme"
+}

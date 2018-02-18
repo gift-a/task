@@ -1,0 +1,10 @@
+.container {
+  max-width: $container-width;
+  box-sizing: border-box;
+  padding: 0 5px;
+  margin: 0 auto;
+
+  @media only screen and (max-width: 600px) {
+    padding: 0 10px;
+  }
+}

@@ -1,0 +1,49 @@
+.footer {
+
+  &__container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+
+    @media only screen and (max-width: 600px) {
+      flex-flow: column wrap;
+    }
+  }
+
+  &__copyright {
+    margin: 20px 0px;
+  }
+
+  &__brand {
+    font-weight: bold;
+
+  }
+
+  &__unsubscribe {
+    color: $color-basic;
+  }
+
+  &__social-menu {
+    align-self: center;
+
+    @media only screen and (max-width: 600px) {
+      flex-flow: row wrap;
+    }
+
+  }
+
+  &__social-item {
+    display: inline-block;
+    margin-left: 12px;
+
+  }
+
+  &__social-link {
+    color: #c6cbd1;
+  }
+
+  &__icon {
+    display: inline-block;
+    height: 18px;
+  }
+}
