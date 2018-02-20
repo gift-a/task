@@ -1,4 +1,4 @@
-'use strict'
+"use strict";
 
 export default class Car {
   constructor(model, brand, color) {
@@ -6,4 +6,4 @@ export default class Car {
     this.brand = brand;
     this.color = color;
   }
-};
+}
