@@ -1,0 +1,20 @@
+@font-face {
+  font-family: 'Belinda';
+  src: url('../fonts/belinda.otf');
+}
+
+@font-face {
+  font-family: 'Nexa-Heavy';
+  src: url('../fonts/Nexa-Heavy.otf');
+}
+
+@font-face {
+  font-family: 'Nexa-Regular';
+  src: url('../fonts/NexaRegular.otf');
+}
+
+.page {
+  margin: 0;
+  font: normal normal $basic-font-size $basic-font-stack;
+  background-color: $color-bg-1;
+}

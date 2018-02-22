@@ -1,0 +1,28 @@
+.section-5 {
+
+  &__menu {
+    justify-content: space-between;
+    padding: 64px 0px 76px;
+  }
+
+  &__menu-item {
+    flex-basis: 48.6%;
+    box-sizing: border-box;
+  }
+
+  &__icon {
+    fill: #c6cbd1;
+  }
+
+  &__line {
+    background: linear-gradient(to right, $color-4, #eff0f0)
+  }
+
+  &__text {
+    margin: 24px 0px 32px;
+  }
+
+  &__button {
+    background-color: $color-2;
+  }
+}

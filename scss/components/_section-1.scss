@@ -1,0 +1,27 @@
+.section-1 {
+
+  &__menu {
+    justify-content: space-between;
+    padding: 64px 0px 16px;
+  }
+
+  &__menu-item {
+    flex-basis: 48.6%;
+    box-sizing: border-box;
+    padding-bottom: 60px;
+  }
+
+  &__img-box {
+    max-width: 264px;
+    max-height: 167px;
+    margin-bottom: 40px;
+  }
+
+  &__line {
+    background: linear-gradient(to right, $color-4, #eff0f0)
+  }
+
+  &__text {
+    margin: 24px 0px 32px;
+  }
+}

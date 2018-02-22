@@ -1,0 +1,37 @@
+.section-3 {
+
+  &__menu {
+    justify-content: space-between;
+    padding: 60px 0px 6px;
+  }
+
+  &__menu-item {
+    flex-basis: 30.17%;
+    box-sizing: border-box;
+    padding-bottom: 60px;
+  }
+
+  &__img-box {
+    max-height: 138px;
+    max-width:181px;
+    background: $color-4 url("../img/s3.png") no-repeat left top;
+    margin-bottom: 38px;
+  }
+
+  &__line {
+    background: linear-gradient(to right, $color-4, #eff0f0)
+  }
+
+  &__text {
+    margin: 22px 0px 26px;
+  }
+
+  &__link {
+    color: $color-1;
+
+    :visited {
+      color: $color-1;
+    }
+
+  }
+}

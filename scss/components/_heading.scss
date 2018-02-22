@@ -1,0 +1,15 @@
+.heading {
+  margin: 0;
+  display: inline-block;
+  text-transform: uppercase;
+
+  &_2 {
+    font: normal bold 18px $basic-font-stack;
+    color: $color-basic-heading;
+  }
+
+  &_3 {
+    font: normal bold 16px $basic-font-stack;
+    color: $color-basic-heading;
+  }
+}

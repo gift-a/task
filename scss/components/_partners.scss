@@ -1,0 +1,63 @@
+.partners {
+  background-color: $color-1;
+  color: #fff;
+
+  &__container {
+    padding: 60px 0px;
+  }
+
+  &__heading-box {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+  }
+
+  &__icon {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    margin-right: 12px;
+  }
+
+  &__heading {
+    font: normal bold 15px $basic-font-stack;
+    top: 0;
+    left: 36px;
+    margin: auto 0;
+  }
+
+  &__line {
+    width: 42%;
+    background-color: #fff;
+    opacity: 0.102;
+  }
+
+  &__menu {
+    font-size: 26px;
+    justify-content: center;
+  }
+
+  &__link {
+    color: #fff;
+
+    :visited {
+      color: #fff;
+    }
+  }
+  &__link_1 {
+    font-family: "Belinda", $basic-font-stack;
+    vertical-align: middle;
+  }
+
+  &__link_2 {
+    font-family: "Nexa-Regular", $basic-font-stack;
+  }
+
+  &__link_3 {
+    font-family: "Cabin", $basic-font-stack;
+  }
+
+  &__link_4 {
+    font-family: "Nexa-Heavy", $basic-font-stack;
+  }
+}
