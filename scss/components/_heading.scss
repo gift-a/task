@@ -1,20 +1,15 @@
 .heading {
   margin: 0;
   display: inline-block;
+  text-transform: uppercase;
 
-  &_2{
+  &_2 {
     font: normal bold 18px $basic-font-stack;
-    text-transform: uppercase;
     color: $color-basic-heading;
-    display: inline-block;
-    margin: 0;
   }
 
   &_3 {
     font: normal bold 16px $basic-font-stack;
-    text-transform: uppercase;
     color: $color-basic-heading;
-    display: inline-block;
-    margin: 0;
   }
 }

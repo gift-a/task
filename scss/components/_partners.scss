@@ -21,9 +21,8 @@
 
   &__heading {
     font: normal bold 15px $basic-font-stack;
-    text-transform: uppercase;
-    top:0;
-    left:36px;
+    top: 0;
+    left: 36px;
     margin: auto 0;
   }
 
@@ -46,19 +45,19 @@
     }
   }
   &__link_1 {
-    font-family: 'Belinda', $basic-font-stack;
+    font-family: "Belinda", $basic-font-stack;
     vertical-align: middle;
   }
 
   &__link_2 {
-    font-family: 'Nexa-Regular', $basic-font-stack;
+    font-family: "Nexa-Regular", $basic-font-stack;
   }
 
   &__link_3 {
-    font-family: 'Cabin', $basic-font-stack;
+    font-family: "Cabin", $basic-font-stack;
   }
 
   &__link_4 {
-    font-family: 'Nexa-Heavy', $basic-font-stack;
+    font-family: "Nexa-Heavy", $basic-font-stack;
   }
 }

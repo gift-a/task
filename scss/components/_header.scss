@@ -1,5 +1,5 @@
 .header {
-  background: $color-bg-2 url('../img/bg.png') center/cover no-repeat;
+  background: $color-bg-2 url("../img/bg.png") center/cover no-repeat;
   text-align: center;
   color: #fff;
 
@@ -8,11 +8,11 @@
   }
 
   &__logo {
-    font: italic normal 52px 'Belinda', sans-serif;
+    font: italic normal 52px "Belinda", sans-serif;
   }
 
   &__nav {
-    font: normal $semibold-weight 13px 'Open Sans', sans-serif;
+    font: normal $semibold-weight 13px "Open Sans", sans-serif;
     text-transform: uppercase;
     margin: 26px 0;
   }
@@ -26,7 +26,7 @@
   }
 
   &__heading {
-    font: normal bold 53px 'Ubuntu', sans-serif;
+    font: normal bold 53px "Ubuntu", sans-serif;
     text-transform: uppercase;
     margin: 30px 0px;
   }
@@ -44,15 +44,18 @@
   }
 
   &__button {
-    font: normal bold 15px $basic-font-stack;
-    text-transform: uppercase;
     box-sizing: border-box;
     padding: 14px 28px 14px 50px;
     margin: 80px 0;
   }
 
-  &__button_show {
-    margin-left: 8px;
-    visibility: hidden;
+  &__text {
+    font: normal bold 15px $basic-font-stack;
+    text-transform: uppercase;
+
+    &_show {
+      margin-left: 8px;
+      visibility: hidden;
+    }
   }
 }
